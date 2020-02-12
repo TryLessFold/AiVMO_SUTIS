@@ -1,0 +1,4 @@
+﻿  Gauss-Jordan.cpp
+C:\Users\artem\source\repos\Gauss-Jordan\Gauss-Jordan\Gauss-Jordan.cpp(56,41): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\artem\source\repos\Gauss-Jordan\Gauss-Jordan\Gauss-Jordan.cpp(203,29): warning C4101: tmp1: неиспользованная локальная переменная
+  Gauss-Jordan.vcxproj -> C:\Users\artem\source\repos\Gauss-Jordan\x64\Debug\Gauss-Jordan.exe
