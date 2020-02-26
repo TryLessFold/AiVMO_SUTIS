@@ -300,13 +300,31 @@ int main() {
 			matrix.push_back(new Fraction(tmp0, 1));
 		}
 	}
-	//cout << "input matrix:" << endl;
-	//PrintMatrix(matrix, n, k);
-	//GaussJordan(matrix, n, k);
-	//cout << "Jordan Gauss:" << endl;
-	//PrintMatrix(matrix, n, k);
-
+	cout << "input matrix:" << endl;
 	PrintMatrix(matrix, n, k);
+	
+	GaussJordan(matrix, n, k);
+	for (int i = 0; i < n; i++)
+	{
+		int f = 0;
+		for (int j = 0; j < k; j++) {
+			if (matrix[i * k + j]->numerator != 0) {
+				f = 1;
+			}
+		}
+		if (f == 0) {
+			matrix.erase(matrix.begin() + i * k, matrix.begin() + i * k + k);
+			n--;
+		}
+	}
+
+
+	cout << "Jordan Gauss:" << endl;
+	PrintMatrix(matrix, n, k);
+	// n = 2 k = 5
+	
+
+
 	vizualka(matrix, k - 1, n);
 
 	return 0;
