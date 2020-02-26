@@ -1,0 +1,3 @@
+﻿  Gauss-Jordan.cpp
+C:\Users\artem\Desktop\AiVMO_SUTIS-master\Gauss-Jordan\Gauss-Jordan\Gauss-Jordan.cpp(57,38): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+  Gauss-Jordan.vcxproj -> C:\Users\artem\Desktop\AiVMO_SUTIS-master\Gauss-Jordan\x64\Debug\Gauss-Jordan.exe
